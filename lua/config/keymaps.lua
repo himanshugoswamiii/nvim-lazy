@@ -20,7 +20,6 @@ vim.keymap.del("n", "<leader>gf")
 -- windows
 vim.keymap.del("n", "<leader>-")
 vim.keymap.del("n", "<leader>|")
-vim.keymap.del("n", "<leader>m")
 
 -- buffers
 vim.keymap.del("n", "<leader>`")
