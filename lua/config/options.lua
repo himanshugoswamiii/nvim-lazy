@@ -7,4 +7,5 @@ vim.opt.tabstop = 4 -- Number of spaces tabs count for
 vim.opt.shiftwidth = 4 -- Size of an indent
 vim.opt.conceallevel = 0 -- display the markup (*) for bold, italic and code
 vim.opt.mouse = "i" -- Enable mouse mode
+vim.opt.clipboard = "unnamedplus"
 -- vim.opt.wrap = false
