@@ -1,4 +1,4 @@
--- This file contains all the plugins that i added
+-- This file contains all the plugins that are core plugins and requires very less configurations
 return {
   {
     "LazyVim/LazyVim",
