@@ -3,6 +3,18 @@
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
+## System Dependencies
+
+- git (for LazyVim)
+- rg (ripgrep) (for LazyVim)
+- fd (for LazyVim)
+- lazygit (for LazyVim) : You can turn off its keybinding if you don't feel like installing it
+
+- unzip (Mason)
+- wget (Mason)
+- curl (Mason)
+- gzip (Mason)
+
 ## How to use ?
 
 To update all the plugins and everything : Run `nvim` then press `l` to open `lazyvim` then `Sync` everything
