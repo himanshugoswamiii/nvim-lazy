@@ -19,6 +19,18 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 To update all the plugins and everything : Run `nvim` then press `l` to open `lazyvim` then `Sync` everything
 
+### lazy.nvim
+- R (Restore) : restores the state of plugins with that of the lockfile
+- S (Sync) : Runs Install + Clean + Update  (Modifies the lazy-lock.json)
+
+### Load a plugin
+Suppose a plugin is not starting (For ex: `catppuccin` is lazy loaded due to which you're unable to set colorscheme)
+
+**Sol:**
+```cmd
+:lua require("catppuccin").load()
+```
+
 ### LSP
 Setup Using `Mason`
 
